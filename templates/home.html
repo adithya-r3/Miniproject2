@@ -1,0 +1,50 @@
+<div class="container">
+<h1>Product Management System</h1>
+<button onclick="window.location.href = '/dataentry' ; " class="btn data-entry">Product Data Entry</button>
+<button onclick="window.location.href = '/database' ; " class="btn database">Retrieve Data from From Database</button>
+</div>
+<style>
+input[type=h1] {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.btn {
+    width: 40%;
+    border: none;
+    background-color:   #191970;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: grid
+}
+.data-entry {
+    color: white;
+}
+
+.data-entry:hover {
+    background: #5D3FD3;
+    color: white;
+}
+.database {
+    color: white;
+}
+
+.database:hover {
+    background: #5D3FD3;
+    color: white;
+}
+.container {
+  border-radius: 5px;
+  background-color: #88B0D7;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Or 'row' if you want to center horizontally */
+  justify-content: center; /* Center vertically */
+  align-items: center;
+}
+
+</style>
